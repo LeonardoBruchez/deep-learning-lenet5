@@ -2,6 +2,23 @@
 
 Este repositório contém a implementação passo a passo e o treinamento da clássica rede neural convolucional **LeNet-5**. O modelo foi desenvolvido utilizando a linguagem Python com o ecossistema PyTorch e é empregado para resolver o problema de classificação de dígitos manuscritos utilizando a base de dados MNIST.
 
+# 🌳 ESTRUTURA RESUMIDA DO PROJETO
+
+```text
+NLW-OPERATOR-ANGRAVITY/
+├── lenet5.ipynb          # Notebook principal com a implementação, visualizações e treinamento
+├── main.py               # Script auxiliar para execução fora do notebook
+├── pyproject.toml        # Configuração do projeto e dependências Python
+├── uv.lock               # Travamento das versões das dependências
+├── README.md             # Documentação do projeto
+├── .python-version       # Versão do Python usada no ambiente
+├── .gitignore            # Regras de arquivos ignorados pelo Git
+├── .venv/                # Ambiente virtual local do projeto
+└── data/                 # Dados baixados e artefatos locais
+	└── MNIST/
+		└── raw/          # Arquivos brutos do MNIST
+```
+
 # 🗂️ NAVEGANDO PELO PROJETO
 
 Diferente de um projeto de software tradicional, o conteúdo principal não está dividido em vários arquivos e módulos, mas centralizado de forma didática e sequencial no arquivo:
